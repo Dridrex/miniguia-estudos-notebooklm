@@ -1,0 +1,5 @@
+Projeto de caderno temático criado com apoio do NotebookLM sobre APIs REST seguras para integração de sistemas.
+
+O estudo reúne fontes abertas como MDN, Microsoft REST API Guidelines, Google Cloud API Design Guide, OWASP API Security Project e documentação do PostgreSQL. No README, documentei o contexto do tema, objetivos de aprendizagem, curadoria das fontes, prompts testados, dificuldades encontradas, miniguia consolidado, glossário e prompts reutilizáveis para futuras revisões.
+
+Escolhi esse tema por estar relacionado ao meu desenvolvimento em backend, automação, APIs, integração de sistemas, dados e segurança da informação.
