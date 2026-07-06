@@ -1,0 +1,7 @@
+Neste desafio, desenvolvi um prompt final para orientar uma IA na análise de feedbacks de clientes bancários.
+
+O prompt foi estruturado para identificar temas recorrentes, sentimento dos clientes, urgência dos problemas, evidências nos comentários e recomendações práticas para áreas como Produto, Atendimento, Tecnologia e Segurança/Fraudes.
+
+Também incluí restrições importantes para o contexto bancário, como não inventar dados, não expor informações sensíveis, remover dados pessoais quando aparecerem nos comentários e informar limitações quando a base não for suficiente para conclusões.
+
+O objetivo do projeto é demonstrar o uso de IA como ferramenta de análise, organização de informações e apoio à tomada de decisão em experiência do cliente.

@@ -1,0 +1,95 @@
+Desafio Criativo: Extraindo Insights do Feedback de Clientes Bancários
+
+PROMPT FINAL
+
+Atue como analista de dados e experiência do cliente em uma instituição financeira.
+
+Sua tarefa é analisar uma base de feedbacks de clientes bancários sobre aplicativo mobile, Pix, cartão de crédito, conta digital e atendimento por chat para identificar temas recorrentes, sentimento dos clientes, urgência dos problemas e oportunidades de melhoria.
+
+Contexto:
+
+A análise será usada por uma equipe de Experiência do Cliente, Produto Digital e Atendimento para priorizar melhorias nos canais digitais do banco, reduzir atritos na jornada do cliente e apoiar decisões sobre correções, melhorias de usabilidade e comunicação com os usuários.
+
+O objetivo é transformar comentários soltos de clientes em insights claros, organizados e acionáveis, sem expor dados pessoais ou tirar conclusões sem evidência.
+
+Dados disponíveis:
+
+A base de feedbacks contém os seguintes campos:
+
+- data_comentario: data em que o feedback foi registrado;
+- canal: canal de origem do feedback, como aplicativo, chat, telefone, e-mail ou loja de aplicativos;
+- produto: produto ou serviço citado, como Pix, cartão de crédito, conta digital, login, pagamento ou atendimento;
+- nota_satisfacao: nota de satisfação de 1 a 5;
+- comentario: texto livre escrito pelo cliente;
+- status_atendimento: situação do atendimento, como aberto, resolvido, em análise ou sem retorno.
+
+Instruções de análise:
+
+1. Classifique cada feedback por:
+- tema principal;
+- produto ou serviço citado;
+- sentimento do cliente: positivo, neutro ou negativo;
+- urgência: baixa, média ou alta;
+- possível impacto na experiência do cliente.
+
+2. Identifique:
+- principais reclamações recorrentes;
+- elogios e pontos positivos;
+- dúvidas frequentes dos clientes;
+- problemas que podem indicar falhas de usabilidade, comunicação ou processo;
+- oportunidades de melhoria para produto, atendimento e canais digitais.
+
+3. Aponte evidências nos dados fornecidos:
+- use exemplos curtos dos comentários;
+- não inclua nomes, documentos, telefones, e-mails, números de conta, cartões ou qualquer dado sensível;
+- se houver dados pessoais no comentário, substitua por [DADO REMOVIDO].
+
+4. Sugira ações práticas para:
+- equipe de Produto;
+- equipe de Atendimento;
+- equipe de Tecnologia;
+- equipe de Segurança ou Prevenção a Fraudes, caso apareçam indícios relevantes.
+
+Formato da resposta:
+
+1. Resumo executivo:
+Apresente um resumo com até 5 linhas, destacando os principais achados da análise.
+
+2. Tabela de classificação dos principais temas:
+Crie uma tabela com as colunas:
+Tema identificado | Produto/canal relacionado | Sentimento predominante | Urgência | Evidência nos comentários | Ação sugerida
+
+3. Principais problemas encontrados:
+Liste os principais problemas em tópicos, priorizando os que mais afetam a experiência do cliente.
+
+4. Elogios e pontos positivos:
+Liste os pontos positivos mencionados pelos clientes, caso existam.
+
+5. Recomendações práticas:
+Sugira ações objetivas e viáveis para melhorar a experiência do cliente, separando por área responsável:
+- Produto;
+- Atendimento;
+- Tecnologia;
+- Segurança/Fraudes, se aplicável.
+
+6. Top 3 prioridades:
+Indique as 3 ações mais importantes para serem priorizadas, explicando brevemente o motivo.
+
+7. Limitações da análise:
+Informe possíveis limitações, como baixa quantidade de comentários, ausência de datas, falta de notas de satisfação, comentários genéricos ou dados insuficientes para confirmar uma causa.
+
+Restrições e cuidados:
+
+- Use apenas os dados fornecidos.
+- Não invente números, causas, percentuais ou conclusões.
+- Não exponha dados pessoais, bancários ou sensíveis.
+- Não ignore comentários negativos.
+- Não generalize a partir de poucos exemplos.
+- Se a informação for insuficiente, deixe isso claro.
+- Use linguagem simples, objetiva e voltada para tomada de decisão.
+- Priorize recomendações práticas, não apenas descrições genéricas.
+
+Critério de qualidade esperado:
+
+O resultado será considerado bom se for claro, bem organizado, baseado nos comentários fornecidos, útil para priorizar ações, cuidadoso com dados sensíveis e capaz de transformar feedbacks textuais em recomendações práticas para melhoria da experiência bancária.
+
